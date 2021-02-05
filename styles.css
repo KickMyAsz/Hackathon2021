@@ -1,13 +1,25 @@
-.title-index {
-  color:#2F4F4F;
+body {
+background-color: #332E2B;
+color: white;
+}
 
+div.main {
+text-align: center
+}
+
+.title-index {
+  color:#5F9EA0;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 42px;
 }
 
 .button-index {
-  border:"0";
-  padding:"10px";
-  border-radius:"25px";
-  background-color:#2F4F4F;
-  color:#D3D3D3;
-
+  border:0;
+  padding:10px;
+  border-radius:25px;
+  background-color:#5F9EA0;
+  font-family: Arial;
+  font-weight: bolder;
+  color: white;
 }
