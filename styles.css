@@ -1,6 +1,11 @@
 body {
-background-color: #332E2B;
+background: url("images/glitch_wpp.jpg") fixed no-repeat center;
+background-size: cover;
 color: white;
+}
+
+a:hover{
+color: #5F9EA0;
 }
 
 div.main {
@@ -10,8 +15,18 @@ text-align: center
 .title-index {
   color:#5F9EA0;
   text-align: center;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial;
+  font-weight: bold;
   font-size: 42px;
+  border-left: 2px black outset;
+}
+
+.description-index {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .button-index {
@@ -19,7 +34,13 @@ text-align: center
   padding:10px;
   border-radius:25px;
   background-color:#5F9EA0;
-  font-family: Arial;
-  font-weight: bolder;
+  font-family: Arial, Helvetica;
+  font-weight: bold;
   color: white;
+}
+
+.button-index:hover {
+  background-color: white;
+  color: #5F9EA0;
+
 }
