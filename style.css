@@ -2,14 +2,19 @@ body {
 background: url("images/glitch_wpp.jpg") fixed no-repeat center;
 background-size: cover;
 color: white;
+padding: 5px;
+
 }
 
 a:hover{
 color: #5F9EA0;
 }
 
-div.main {
-text-align: center
+#main {
+  width: auto;
+  height: auto;
+  overflow: auto;
+  text-align: center
 }
 
 .title-index {
@@ -19,6 +24,7 @@ text-align: center
   font-weight: bold;
   font-size: 42px;
   border-left: 2px black outset;
+  margin: 20px;
 }
 
 .description-index {
