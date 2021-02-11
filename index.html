@@ -2,25 +2,34 @@
 <html lang="fr">
 
 <head>
-
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-
-  <div id="main">
-
-    <h2 class="title-index">Let's the journey begins<h2>
-    <p class="description-index">Click on the button just down below to start<p>
-    <a href="https://youtu.be/FNIeQDP37Nc" target="_blank"><button class="button-index">START NOW</button></a>
-
+  <div id="wip">
+    <p> Work in progress...please standby.</p>
+    <progress value="14" max="100"></progress>
   </div>
-
+  <div id="welcome">
+    <h2 class="title-index">HACKATHON 2021<h2>
+    <p class="description-index">Vous avez été selectionné pour participer au Hackathon privé édition
+        2021 organisé par l'équipe de "2reach" ! Inscrivez-vous en créant
+        un compte membre sur ce site.<p>
+    <a href="https://youtu.be/FNIeQDP37Nc" target="_blank"><button class="button-index">JOIN NOW</button></a>
+  </div>
+  <div id="copyrights">
+    <p>© 2021, HackathonProject - Created by Olszewski Kacper & Arthur Bartholome</p>
+  </div>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+  <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove",function(e) {
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+  </script>
 </body>
-
-
 
 </html>
